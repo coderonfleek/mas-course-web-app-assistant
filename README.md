@@ -10,15 +10,15 @@ An intelligent CLI tool that helps developers debug web application issues acros
 
 ```bash
 
-cdweb-app-troubleshooter
+cd web-app-troubleshooter
 
-python-mvenvvenv
+python -m venv .venv
 
-sourcevenv/bin/activate
+source venv/bin/activate
 
-pipinstall-rrequirements.txt
+pip install -r requirements.txt
 
-cp.env.example.env
+cp .env .example.env
 
 ```
 
@@ -40,7 +40,7 @@ OPENAI_MODEL=gpt-4o
 
 ```bash
 
-python-msrc.main
+python -m src.main
 
 ```
 
